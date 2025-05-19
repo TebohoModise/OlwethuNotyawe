@@ -1,0 +1,68 @@
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+}
+body{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', sans-serif;
+}
+.display img{
+
+    width: 100%;
+}
+#tab {
+    width: 100%;
+    height: 40px;
+    background-color:cornflowerblue;
+    padding-top: 12px;
+}
+#tab a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+#gallerybody {
+    background-color: rgba(230, 228, 221, 0.762);
+}
+.Imagegallery img {
+    width: 100%;
+    height: auto;
+}
+.VideoGallery video {
+    width: 100%;
+    height: 1000px;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.profile-pic {
+  max-width: 800px;
+  height: auto;
+}
+
+.biotext {
+  max-width: 600px;
+  color: white;
+  font-size: 16px;
+}
+.social-media a {
+align-items: right;
+  size: 100%;
+  gap: 10px;
+}
+
+.social-media{
+    display: flex;
+    justify-content:right;
+    align-items:right;
+    gap: 15px;
+}
+.social-media a{
+    font-size: 20px;
+    color: white;
+}
